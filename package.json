@@ -1,0 +1,22 @@
+{
+  "name": "king_s_balin",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev -p 3000",
+    "build": "next build",
+    "start": "next start -p 3000",
+    "check-env": "node ./scripts/check-env.js",
+    "ci-check": "npm run check-env && npm run build"
+  },
+  "dependencies": {
+    "next": "^14.0.1",
+    "react": "^18.2.1",
+    "react-dom": "^18.2.1",
+    "@supabase/supabase-js": "^2.30.1"
+  },
+  "engines": {
+    "node": "20.x"
+  },
+  "devDependencies": {}
+}

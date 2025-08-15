@@ -1,0 +1,11 @@
+Removed top-level items not needed for deployment:
+.github
+.gitignore
+MERGE_MANIFEST.txt
+NODE_UPDATE_CHANGELOG.txt
+README_FLATTENED.txt
+REPORT_FINAL.md
+UPGRADE_NOTES.md
+_SAFE_UPDATE_CHANGELOG.txt
+_review_patches
+login.js

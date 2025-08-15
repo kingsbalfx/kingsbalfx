@@ -1,0 +1,103 @@
+{
+  "has_pages": true,
+  "has_app": false,
+  "env_vars_found_count": 8,
+  "env_vars_found_sample": [
+    "ADMIN_PASSWORD",
+    "MAILCHIMP_API_KEY",
+    "MAILCHIMP_LIST_ID",
+    "PAYSTACK_SECRET_KEY",
+    "PAYSTACK_WEBHOOK_SECRET",
+    "PUBLIC_BASE_URL",
+    "SUPABASE_SERVICE_KEY",
+    "SUPABASE_URL"
+  ],
+  "files_with_node_fetch": [],
+  "files_with_storage_refs": [
+    "pages/api/vip-users.js",
+    "pages/api/subscribe.js",
+    "pages/api/paystack-verify.js",
+    "pages/api/admin-mode.js",
+    "pages/api/admin-command.js",
+    "pages/api/pay.js",
+    "pages/api/paystack-webhook.js",
+    "pages/api/admin/supabase-test.js"
+  ],
+  "files_with_getStaticPaths": [],
+  "files_with_localhost_strings": [
+    "pages/api/pay-initiate.js"
+  ],
+  "created_login_copy": true,
+  "created_index": true,
+  "vercel_modified": false,
+  "package_json_modified": false,
+  "final_changes_added": [
+    [
+      "pages/api/pay-initiate.js",
+      "Replaced hard-coded localhost with process.env.PUBLIC_BASE_URL fallback"
+    ],
+    [
+      ".env.production",
+      "Created .env.production with placeholders for production deployment"
+    ],
+    [
+      "README_DEPLOYMENT.md",
+      "Added deployment checklist & instructions"
+    ]
+  ],
+  "timestamp_note": "Final best-effort fixes applied: localhost replacement, .env.production, README_DEPLOYMENT",
+  "best_pass_v2": {
+    "timestamp": "2025-08-15T20:58:07.928784Z",
+    "changes": [
+      [
+        "pages/api/pay-initiate.js",
+        "Replaced hardcoded localhost with PUBLIC_BASE_URL fallback"
+      ],
+      [
+        ".env.local.example",
+        "Created .env.local.example from existing envs"
+      ],
+      [
+        "vercel.json",
+        "Updated vercel.json version to 3"
+      ],
+      [
+        "pages/api/health.js",
+        "Added simple health check endpoint"
+      ]
+    ],
+    "scans": {
+      "total_files": 44,
+      "process_envs_found": [
+        "ADMIN_PASSWORD",
+        "MAILCHIMP_API_KEY",
+        "MAILCHIMP_LIST_ID",
+        "PAYSTACK_SECRET_KEY",
+        "PAYSTACK_WEBHOOK_SECRET",
+        "PUBLIC_BASE_URL",
+        "SUPABASE_SERVICE_KEY",
+        "SUPABASE_URL"
+      ],
+      "hardcoded_localhost_files": [
+        "AUTO_FIX_REPORT.json",
+        "pages/api/pay-initiate.js"
+      ],
+      "node_fetch_files": [],
+      "storage_imports": [
+        "pages/api/admin-command.js",
+        "pages/api/admin-mode.js",
+        "pages/api/admin/supabase-test.js",
+        "pages/api/pay.js",
+        "pages/api/paystack-verify.js",
+        "pages/api/paystack-webhook.js",
+        "pages/api/subscribe.js",
+        "pages/api/vip-users.js"
+      ],
+      "getStaticPaths_files": [
+        "AUTO_FIX_REPORT.json"
+      ],
+      "index_exists": true,
+      "login_exists": true
+    }
+  }
+}
